@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="bower_components/foundation/css/normalize.min.css">
+  <link rel="stylesheet" href="bower_components/foundation/css/foundation.css">
+  <link rel="stylesheet" href="css/app.css">
+  <title>Galvanize</title>
+  <script src="bower_components/foundation/js/vendor/modernizr.js"></script>
+</head>
+
+<body class="bodyb">
+
+  <div class="contain-to-grid fixed">
+  <nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+      <li class="name">
+        <h1><a href="index.html">Personal</a></h1>
+      </li>
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
+
+    <section class="top-bar-section">
+      <ul class="right">
+        <li><a href="#">Galvanize</a></li>
+      </ul>
+    </section>
+  </nav>
+  </div>
+
+  <div class="row">
+    <div class="small-12">
+      <h1 class="abouttitle">Galvanize</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="small-8 columns">
+      <h4 class="aboutme">Eager to get learning at galvanize, after the JS work shop I took at the Platte campus. I started learning front-end design at the art institute along with graphic design too. I come from a more designer background, but realized I enjoyed the web part of it and decided to take learning into my own hands. I had a mentor that first introduced me to github and frameworks. Right now i use grunt and browser sync along with scss. I just didn't know where to take the next step in learning this. So galvanize was a perfect fit. In all reality my goal is to make an app that I want while here, and then set up a job overseas after I finish the program. I hope to be part of the community and participate in all the things galvanize has to offer.</h4> 
+    </div>
+    <div class="small-4 columns">
+      <div class="hideMe"></div><p>Click the orange circle!</p>
+    </div>
+  </div>
+
+     <span>KyleJayMaxwell &copy;</span>
+     
+  <script src="bower_components/foundation/js/vendor/jquery.js"></script>
+  <script src="bower_components/foundation/js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+    $(".hideMe").click(function(){
+    $(this).remove();
+  });
+  </script>
+</body>
+</html>
